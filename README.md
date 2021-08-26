@@ -19,7 +19,8 @@ Installed golang in system. No framework required.
 1. Run `go test github.com/bron10/parking-lot/packages`
 
 ## Architecture.
-To be documented
+Following is the basic architecture
+![Alt text](parkingsys.png?raw=true "parking-system") 
 
 ## ToDo
 dockerFile
