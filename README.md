@@ -23,5 +23,5 @@ Following is the basic architecture
 ![Alt text](parkingsys.png?raw=true "parking-system") 
 
 ## ToDo
-dockerFile
-Optimizations
+- dockerFile
+- Optimizations
