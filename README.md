@@ -1,31 +1,22 @@
 
-## Simple url shortner service
-It generates short-code on bases of keys. The range of keys is provided to each server.Using fastify framework for performance and maintainability.   
+## Command based parking lot system
+Parking lot system that takes file for eg : `input.txt` as input commands.
+processes the instructions like `Park`, `Leave` etc. and outputs the job completion
+in `output.txt`. 
 -------------------------------------------------------
 
-## Arch.
-![Alt text](url-short-block.png?raw=true "Title")
--------------------------------------------------------
-1. The default range is { min : 0, max : 9999}. The key service which is not part of this
-project can be responsible for provided one when api server's range of keys exhaust.
-The maximum key can go upto 2 to the power of 64.
-2. The same url created anonymously will get same token
-## Start up:
+## Prerequisites
+Installed golang in system. No framework required.
 
-1. `npm install` //Install packages
+## Working and start up
+1. Run `go run main.go`
+2. Enter the file name for eg : `input.txt`
+![Alt text](working.gif?raw=true "Title") 
+3. Check the output in `output.txt`
 
-2. `npm run dev` //for development run
+## Architecture.
+To be documented
 
-3. `npm start` //for prod run
-
-4. Runs at `http://localhost:3000/`
-
-## Take a look
-![Alt text](example.gif?raw=true "Title")
--------------------------------------------------------
-1. `POST : /anonymous/create` Create shortlink request as anonymous user
-    `body : {url : "https://github.com/bron10/url-shortner"}`
-
-2. `GET : /:token` Request redirection to actual url
-This newly generated token is recieved in each request
-
+## ToDo
+dockerFile
+Optimizations
