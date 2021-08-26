@@ -14,6 +14,10 @@ Installed golang in system. No framework required.
 ![Alt text](working.gif?raw=true "Title") 
 3. Check the output in `output.txt`
 
+
+## Unit tests
+1. Run `go test github.com/bron10/parking-lot/packages`
+
 ## Architecture.
 To be documented
 
